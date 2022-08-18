@@ -9,7 +9,7 @@ set_time_limit(0);
 flush();
 $API_KEY = 'Your bot token'; 
 
-define('API_KEY',$API_KEY);
+define('5590169743:AAFPBzZVC4Z2G3-si9BcFiYUoOFAmbAeLPU',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
@@ -65,15 +65,15 @@ bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"***VALID BIN✅
                 
-Bin: $bin
+🔢Bin : $bin
 
-Type: $scheme
+💳Type : $scheme
 
-Brand : $Brand
+📶Réseau : $Brand
 
-Bank: $bank
+🏦Bank : $bank
 
-Country: $country $emoji
+🏳️ Pays : $country $emoji
 
 Currency: $currency
 
